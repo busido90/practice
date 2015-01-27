@@ -10,15 +10,18 @@
 <body>
 <?php
 
-$a = 444;
-$b = 555;
+// $a = 444;
+// $b = 555;
 
-function plus($num1,$num2) {
+function plus($num1 = 1 , $num2 = 1) {
 	$plus = $num1 + $num2;
 	return $plus;
 }
 
-echo plus($a,$b);
+// echo plus(/*$a,$b*/);
+$result = plus();
+
+echo $result;
 
 ?>
 </body>
